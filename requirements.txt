@@ -1,0 +1,11 @@
+Django
+djangorestframework
+psycopg2-binary
+celery
+redis
+django-celery-beat
+pandas
+pytest
+pytest-django
+django-filter
+requests
