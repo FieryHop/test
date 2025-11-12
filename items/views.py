@@ -23,7 +23,7 @@ class ItemListView(generics.ListAPIView):
     queryset = Item.objects.all()
     serializer_class = ItemSerializer
     filter_backends = [DjangoFilterBackend, filters.SearchFilter]
-    filterset_class = ItemFilter  # подключаем свой фильтр
+    filterset_class = ItemFilter
     search_fields = ['name']
     pagination_class = None
 
