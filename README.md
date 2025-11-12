@@ -88,8 +88,7 @@ docker compose exec web pytest
 ---
 
 ## Важные моменты
-
-- Не забудьте проверить и настроить `.env` с параметрами БД, Redis и секретным ключом Django.  
+Не забудьте проверить и настроить `.env` с параметрами БД, Redis и секретным ключом Django.  
 
 - DEBUG=True
 - SECRET_KEY=
@@ -103,7 +102,7 @@ docker compose exec web pytest
 - POSTGRES_PASSWORD=
 - DJANGO_SETTINGS_MODULE=app.settings
 
-- Не забудьте проверить и настроить `docker-compose` с параметрами БД.  
+Не забудьте проверить и настроить `docker-compose` с параметрами БД.  
 
 ---
 
