@@ -91,17 +91,17 @@ docker compose exec web pytest
 
 - Не забудьте проверить и настроить `.env` с параметрами БД, Redis и секретным ключом Django.  
 
-DEBUG=True
-SECRET_KEY=
-DATABASE_URL=
-REDIS_URL=
-CELERY_BROKER_URL=redis://redis:6379/0
-CELERY_RESULT_BACKEND=redis://redis:6379/0
-DB_HOST=
-POSTGRES_DB=
-POSTGRES_USER=
-POSTGRES_PASSWORD=
-DJANGO_SETTINGS_MODULE=app.settings
+- DEBUG=True
+- SECRET_KEY=
+- DATABASE_URL=
+- REDIS_URL=
+- CELERY_BROKER_URL=redis://redis:6379/0
+- CELERY_RESULT_BACKEND=redis://redis:6379/0
+- DB_HOST=
+- POSTGRES_DB=
+- POSTGRES_USER=
+- POSTGRES_PASSWORD=
+- DJANGO_SETTINGS_MODULE=app.settings
 
 - Не забудьте проверить и настроить `docker-compose` с параметрами БД.  
 
